@@ -1,0 +1,43 @@
+No.     Time           Source                Destination           Protocol Length Info
+    917 12.848406033   TpLinkTechno_05:fe:84 1a:eb:c3:21:94:6b     802.11   186    Association Request, SN=456, FN=0, Flags=........, SSID="tình anh gửi em"
+
+Frame 917: Packet, 186 bytes on wire (1488 bits), 186 bytes captured (1488 bits) on interface mon0, id 0
+Radiotap Header v0, Length 13
+802.11 radio information
+IEEE 802.11 Association Request, Flags: ........
+IEEE 802.11 Wireless Management
+    Fixed parameters (4 bytes)
+        Capabilities Information: 0x0531
+        Listen Interval: 0x0001
+    Tagged parameters (145 bytes)
+        Tag: SSID parameter set: "tình anh gửi em"
+        Tag: Supported Rates 1, 2, 5.5, 11, 6, 9, 12, 18, [Mbit/sec]
+        Tag: Extended Supported Rates 24, 36, 48, 54, [Mbit/sec]
+        Tag: Power Capability Min: 0, Max: 20
+        Tag: Supported Channels
+        Tag: RSN Information
+        Tag: HT Capabilities
+        Tag: Extended Capabilities (8 octets)
+        Tag: Supported Operating Classes
+        Tag: Vendor Specific: Microsoft Corp.: WMM/WME: Information Element
+
+No.     Time           Source                Destination           Protocol Length Info
+    920 12.853682564   1a:eb:c3:21:94:6b     TpLinkTechno_05:fe:84 802.11   182    Association Response, SN=1183, FN=0, Flags=........C
+
+Frame 920: Packet, 182 bytes on wire (1456 bits), 182 bytes captured (1456 bits) on interface mon0, id 0
+Radiotap Header v0, Length 36
+802.11 radio information
+IEEE 802.11 Association Response, Flags: ........C
+IEEE 802.11 Wireless Management
+    Fixed parameters (6 bytes)
+        Capabilities Information: 0x9731
+        Status code: Successful (0x0000)
+        ..00 0000 0000 1101 = Association ID: 0x000d
+    Tagged parameters (112 bytes)
+        Tag: Supported Rates 1(B), 2(B), 5.5(B), 11(B), 6(B), 9, 12(B), 18, [Mbit/sec]
+        Tag: Extended Supported Rates 24(B), 36, 48, 54, [Mbit/sec]
+        Tag: Country Information: Country Code VN, Environment Global operating classes
+        Tag: HT Capabilities
+        Tag: HT Operation
+        Tag: Extended Capabilities (8 octets)
+        Tag: Vendor Specific: Microsoft Corp.: WMM/WME: Parameter Element

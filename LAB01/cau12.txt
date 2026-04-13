@@ -1,0 +1,61 @@
+No.     Time           Source                Destination           Protocol Length Info
+    909 12.827790959   TpLinkTechno_05:fe:84 1a:eb:c3:21:94:6b     802.11   43     Authentication, SN=455, FN=0, Flags=........
+
+Frame 909: Packet, 43 bytes on wire (344 bits), 43 bytes captured (344 bits) on interface mon0, id 0
+Radiotap Header v0, Length 13
+802.11 radio information
+IEEE 802.11 Authentication, Flags: ........
+    Type/Subtype: Authentication (0x000b)
+    Frame Control Field: 0xb000
+    .000 0000 0000 0000 = Duration: 0 microseconds
+    Receiver address: 1a:eb:c3:21:94:6b (1a:eb:c3:21:94:6b)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Destination address: 1a:eb:c3:21:94:6b (1a:eb:c3:21:94:6b)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Transmitter address: TpLinkTechno_05:fe:84 (c4:e9:84:05:fe:84)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source address: TpLinkTechno_05:fe:84 (c4:e9:84:05:fe:84)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    BSS Id: 1a:eb:c3:21:94:6b (1a:eb:c3:21:94:6b)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    .... .... .... 0000 = Fragment number: 0
+    0001 1100 0111 .... = Sequence number: 455
+    [WLAN Flags: ........]
+IEEE 802.11 Wireless Management
+
+No.     Time           Source                Destination           Protocol Length Info
+    912 12.833062358   1a:eb:c3:21:94:6b     TpLinkTechno_05:fe:84 802.11   70     Authentication, SN=1458, FN=0, Flags=........C
+
+Frame 912: Packet, 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface mon0, id 0
+Radiotap Header v0, Length 36
+802.11 radio information
+IEEE 802.11 Authentication, Flags: ........C
+    Type/Subtype: Authentication (0x000b)
+    Frame Control Field: 0xb000
+    .000 0001 0011 1010 = Duration: 314 microseconds
+    Receiver address: TpLinkTechno_05:fe:84 (c4:e9:84:05:fe:84)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Destination address: TpLinkTechno_05:fe:84 (c4:e9:84:05:fe:84)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Transmitter address: 1a:eb:c3:21:94:6b (1a:eb:c3:21:94:6b)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source address: 1a:eb:c3:21:94:6b (1a:eb:c3:21:94:6b)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    BSS Id: 1a:eb:c3:21:94:6b (1a:eb:c3:21:94:6b)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    .... .... .... 0000 = Fragment number: 0
+    0101 1011 0010 .... = Sequence number: 1458
+    Frame check sequence: 0x3e418c76 [unverified]
+    [FCS Status: Unverified]
+    [WLAN Flags: ........C]
+IEEE 802.11 Wireless Management
